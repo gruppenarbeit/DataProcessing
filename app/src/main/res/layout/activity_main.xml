@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <EditText android:id="@+id/input_freq"
+            android:layout_weight="55.47"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/input_freq" />
+
+
+        <EditText
+            android:id="@+id/input_magn"
+            android:layout_weight="55.47"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/input_magn" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send"
+            android:onClick="sendMessage" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <EditText android:id="@+id/attenuator"
+            android:layout_weight="55.47"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="attenuator 0-3" />
+
+
+        <EditText
+            android:id="@+id/device_id"
+            android:layout_weight="55.47"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="device id int32" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send2"
+            android:onClick="sendMessage" />
+
+    </TableRow>
+
+
+
+
+
+</TableLayout>
+
+
+
+

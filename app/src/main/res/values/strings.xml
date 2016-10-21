@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalibrationApp</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Calc Field</string>
+    <string name="input_freq">inp. freq. </string>
+    <string name="input_magn">inp. magn. </string>
+
+    <string name="button_send2">Calc Packet</string>
+    <string name="input_freq2">device id </string>
+    <string name="input_magn2">attenuator </string>
+</resources>
